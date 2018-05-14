@@ -35,4 +35,6 @@
 //        When user clicks, it should take the value from the 'data-color'
 //        attribute and set the 'color' property of the <p class="textbox">
 //
+//        To access data-* attributes:
+//        https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 //--------------------------------------------------------
