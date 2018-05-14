@@ -6,7 +6,13 @@
 //
 //--------------------------------------------------------
 
+var rteItalicsDomEl = document.querySelector('.rte-italics')
 
+function handleItalicsBtnClick(){
+  alert('wired up!')
+}
+
+rteItalicsDomEl.addEventListener('click', handleItalicsBtnClick)
 
 
 //--------------------------------------------------------
