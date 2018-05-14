@@ -1,0 +1,86 @@
+*{ box-sizing: border-box }
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+button{
+	background: #eee;
+	border: 0;
+	cursor: pointer;
+}
+
+.textbox{
+	font-family: 'Palatino', 'Times New Roman', serif;
+	border: 2px solid #aaa;
+	background: #ededed;
+	padding: 2rem;
+	font-size: 16px;
+}
+
+.fontsize--16px{
+	font-size: 16px;
+}
+
+.rte{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.rte-fontsize{
+	display: inline-block;
+	background: #ddd;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid;
+	cursor: pointer;
+	background: lightyellow;
+}
+.rte-fontstyle{
+	display: inline-block;
+	background: #ddd;
+	width: 70px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.rte-italics{
+	font-family: serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.rte-bold{
+	font-family: serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.color-palette > *{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+
+
+.fontcolor--black{ background: #333}
+.fontcolor--red{ background: #c0392b}
+.fontcolor--purple{background: #9b59b6 }
+.fontcolor--blue{background: #3498db}
+.fontcolor--green{background: #16a085 }
+.fontcolor--yellow{background: #f1c40f }
+.fontcolor--orange{background: #e67e22}
+
+
+
+/*ul li {display: block; margin: 10px; }*/
+
+#app-container{
+	max-width: 800px;
+	margin: 0 auto;
+}
